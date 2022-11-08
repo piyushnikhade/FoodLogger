@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="org.tensorflow.lite.examples.objectdetection"
+5    android:versionCode="1"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml
+11
+12    <!-- Enable instant app support -->
+13    <dist:module dist:instant="true" />
+13-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:9:5-40
+13-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:9:18-37
+14
+15    <!-- Declare features -->
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:12:5-60
+16-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:12:19-57
+17
+18    <!-- Declare permissions -->
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:15:5-65
+19-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:15:22-62
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23
+24    <application
+24-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:17:5-48:19
+25        android:allowBackup="true"
+25-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:21:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.6.0] C:\Users\piyus\.gradle\caches\transforms-3\22e584a398e49dc53a8e6a5e66f4da0c\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@drawable/ic_launcher"
+28-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:18:9-45
+29        android:label="FoodLogger"
+29-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:20:9-35
+30        android:roundIcon="@drawable/ic_launcher_round"
+30-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:19:9-56
+31        android:taskAffinity=""
+31-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:23:9-32
+32        android:testOnly="true" >
+33        <activity
+33-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:26:9-46:20
+34            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
+34-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:27:13-41
+35            android:clearTaskOnLaunch="true"
+35-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:28:13-45
+36            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+36-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:34:13-91
+37            android:exported="true"
+37-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:30:13-36
+38            android:icon="@drawable/ic_launcher"
+38-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:31:13-49
+39            android:resizeableActivity="true"
+39-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:33:13-46
+40            android:rotationAnimation="seamless"
+40-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:32:13-49
+41            android:theme="@style/AppTheme" >
+41-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:29:13-44
+42
+43            <!-- Main app intent filter -->
+44            <intent-filter>
+44-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:38:13-41:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:39:17-69
+45-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:39:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:40:17-77
+47-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:40:27-74
+48            </intent-filter>
+49
+50            <!-- Declare notch support -->
+51            <meta-data
+51-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:44:13-83
+52                android:name="android.notch_support"
+52-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:44:24-60
+53                android:value="true" />
+53-->C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\src\main\AndroidManifest.xml:44:61-81
+54        </activity>
+55
+56        <uses-library
+56-->[androidx.window:window:1.0.0-alpha09] C:\Users\piyus\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+57            android:name="androidx.window.extensions"
+57-->[androidx.window:window:1.0.0-alpha09] C:\Users\piyus\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+58            android:required="false" />
+58-->[androidx.window:window:1.0.0-alpha09] C:\Users\piyus\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+59        <uses-library
+59-->[androidx.window:window:1.0.0-alpha09] C:\Users\piyus\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+60            android:name="androidx.window.sidecar"
+60-->[androidx.window:window:1.0.0-alpha09] C:\Users\piyus\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+61            android:required="false" />
+61-->[androidx.window:window:1.0.0-alpha09] C:\Users\piyus\.gradle\caches\transforms-3\fd89891908524ffdf904b2e997e8aae1\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+62
+63        <service
+63-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\piyus\.gradle\caches\transforms-3\9886d106f8a9677d73f154939dd178e4\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
+64            android:name="androidx.camera.core.impl.MetadataHolderService"
+64-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\piyus\.gradle\caches\transforms-3\9886d106f8a9677d73f154939dd178e4\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
+65            android:enabled="false"
+65-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\piyus\.gradle\caches\transforms-3\9886d106f8a9677d73f154939dd178e4\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
+66            android:exported="false" >
+66-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\piyus\.gradle\caches\transforms-3\9886d106f8a9677d73f154939dd178e4\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
+67            <meta-data
+67-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\piyus\.gradle\caches\transforms-3\9886d106f8a9677d73f154939dd178e4\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
+68                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+68-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\piyus\.gradle\caches\transforms-3\9886d106f8a9677d73f154939dd178e4\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
+69                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+69-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\piyus\.gradle\caches\transforms-3\9886d106f8a9677d73f154939dd178e4\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
+70        </service>
+71
+72        <provider
+72-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\piyus\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+73            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\piyus\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+74            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
+74-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\piyus\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+75            android:exported="false"
+75-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\piyus\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+76            android:multiprocess="true" />
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\piyus\.gradle\caches\transforms-3\d3b9f0ec91abda46eb69824da218d191\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+77    </application>
+78
+79</manifest>
