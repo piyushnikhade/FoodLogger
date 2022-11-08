@@ -12,5 +12,5 @@ App Name: FoodLogger
 Relative Path from app directory:
 build/intermediates/apk/debug
 
-Absoulute Path:
-C:\Users\piyus\OneDrive\Documents\GitHub\ObjectDetection_SEPM_Grp24\app\build\intermediates\apk\debug\app-debug.apk
+Github Absoulute Path:
+apk/debug/app-debug.apk
